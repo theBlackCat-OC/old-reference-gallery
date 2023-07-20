@@ -100,7 +100,7 @@
     </div>      
   </div>
   <br><br><br><br><br><div class="bottombar">
-    <span style="cursor: default;">&copy;&nbsp;黒猫 | The Black Cat, 2023</span>
+    <a href="https://theblack.cat"><span>&copy;&nbsp;黒猫 | the Black Cat, 20233&nbsp;&nbsp;&nbsp;</span></a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://skeb.theblack.cat/hands"><span class="bottombar-button"><img src="resources/favicon.png" width="28" height="28" class="inline-icon">&nbsp;日本語版へ</span></a>
     &nbsp;&nbsp;&nbsp;
@@ -117,7 +117,6 @@
   var slideIndex = 0;
   var slides = document.getElementsByClassName("slide");
   
-  // Add descriptions for each slide
   var descriptions = [
     "Left Hand",
     "Right Hand",
@@ -125,13 +124,11 @@
     "Hands being used: bottom view"
   ];
 
-  // Hide all slides initially
   for (var i = 0; i < slides.length; i++) {
     slides[i].style.opacity = "0";
     slides[i].style.visibility = "hidden";
   }
 
-  // Display the first slide and description
   slides[0].style.opacity = "1";
   slides[0].style.visibility = "visible";
   updateDescription(0);

@@ -17,17 +17,17 @@
   #button-inner-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly; /* Adjusts spacing automatically */
+    justify-content: space-evenly; 
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.1px);
     -webkit-backdrop-filter: blur(3.1px);
     border: 1px solid black;
-    padding: 15px; /* Padding inside the inner box */
+    padding: 15px; 
   }
   
   .button-div {
-    width: 100%; /* Adjusted to occupy 45% of the container width */
+    width: 100%;
     background: rgba(255, 255, 255, 0.25);
     font-family: 'sanfrancisco', sans-serif;
     font-size: 2.3em;
@@ -40,7 +40,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin: 10px; /* Added margin to create space around each button */
+    margin: 10px;
   }
   
   .button-div:hover {

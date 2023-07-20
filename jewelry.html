@@ -99,7 +99,7 @@
     </div>      
   </div>
   <br><br><br><br><br><div class="bottombar">
-    <a href="https://theblack.cat"><span>&copy;&nbsp;the Black Cat, 2023&nbsp;&nbsp;&nbsp;</span></a>
+    <a href="https://theblack.cat"><span>&copy;&nbsp;黒猫 | the Black Cat, 20233&nbsp;&nbsp;&nbsp;</span></a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://skeb.theblack.cat/jewelry"><span class="bottombar-button"><img src="resources/favicon.png" width="28" height="28" class="inline-icon">&nbsp;日本語版へ</span></a>
     &nbsp;&nbsp;&nbsp;
@@ -116,7 +116,6 @@
   var slideIndex = 0;
   var slides = document.getElementsByClassName("slide");
   
-  // Add descriptions for each slide
   var descriptions = [
     "Top Right earring",
     "Top Left earring",
@@ -124,13 +123,11 @@
     "Top Right View"
   ];
 
-  // Hide all slides initially
   for (var i = 0; i < slides.length; i++) {
     slides[i].style.opacity = "0";
     slides[i].style.visibility = "hidden";
   }
 
-  // Display the first slide and description
   slides[0].style.opacity = "1";
   slides[0].style.visibility = "visible";
   updateDescription(0);
