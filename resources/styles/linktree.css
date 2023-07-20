@@ -1,0 +1,56 @@
+#button-outer-box {
+    width: 62vw;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+  }
+  
+  #button-outer-box a {
+    display: inline-block;
+    width: 45%;
+    text-decoration: none;
+  }
+  
+  
+  #button-inner-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Adjusts spacing automatically */
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    border: 1px solid black;
+    padding: 15px; /* Padding inside the inner box */
+  }
+  
+  .button-div {
+    width: 100%; /* Adjusted to occupy 45% of the container width */
+    background: rgba(255, 255, 255, 0.25);
+    font-family: 'sanfrancisco', sans-serif;
+    font-size: 2.3em;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px; /* Added margin to create space around each button */
+  }
+  
+  .button-div:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+  }
+  
+
+  @media (min-width: 1920px) {
+    #button-outer-box {
+      width: 55vw;
+    }
+  }

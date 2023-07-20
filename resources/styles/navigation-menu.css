@@ -1,0 +1,100 @@
+.nav-menu {
+  font-family: 'sanfrancisco', sans-serif;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid black;
+  padding: 1vw;
+  width: 62vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Allow the navigation items to wrap to the next line */
+  box-sizing: border-box; /* Include padding and border in the item's width */
+}
+
+.nav-container {
+  width: 100%; /* Set the width to take the full width of the .nav-menu */
+  display: flex;
+  flex-wrap: wrap; /* Allow the navigation items to wrap to the next line */
+  justify-content: space-between; /* Distribute the space evenly between the items */
+  overflow: auto; /* Enable scrolling for overflowed navigation items */
+}
+
+.nav-item {
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+  flex-basis: 20%; /* Each navigation item occupies 20% of the container's width */
+  box-sizing: border-box; /* Include padding and border in the item's width */
+  max-height: calc((16vh - 20px) / 2); /* Set maximum height for each nav item */
+  text-overflow: ellipsis; /* Add ellipsis (...) when the content overflows */
+  white-space: nowrap; /* Prevent the text from wrapping */
+  overflow: hidden; /* Hide any content that exceeds the maximum height */
+  flex-shrink: 0; /* Prevent the items from shrinking */
+  flex-grow: 1; /* Allow the items to grow */
+}
+
+.extra-nav-item {
+  height: 25%;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+  width: 100%; /* Set the width to take the full width of the .nav-menu */
+  flex-shrink: 0; /* Prevent the extra nav item from shrinking */
+  flex-grow: 1; /* Allow the extra nav item to grow */
+  box-sizing: border-box; /* Include padding and border in the item's width */
+}
+
+.current-content{
+  background-color: white;
+}
+
+.current-content:hover{
+  text-decoration:none;
+  color: black;
+  cursor: default;
+}
+
+/* Media query for smaller displays */
+@media (max-width: 830px) {
+  .nav-item {
+    flex-basis: 33.33%; /* Each navigation item occupies 33.33% of the container's width on smaller displays */
+    max-height: calc((16vh - 20px) / 3); /* Set maximum height for each nav item */
+    margin-bottom: 0; /* Remove the spacing between rows */
+  }
+  
+  .nav-item:nth-child(7),
+  .nav-item:nth-child(8) {
+    flex-basis: 50%; /* The 7th and 8th items occupy 50% of the container's width */
+  }
+}
+
+/* Media query for screens with a width of 1920px or higher */
+@media (min-width: 1920px) {
+  .nav-menu {
+    width: 55vw; /* Change the width of the nav menu to 55vw */
+  }
+}
+
+@media (max-width: 830px) {
+  .nav-item span {
+    display: none;
+  }
+}
+

@@ -1,0 +1,23 @@
+.topbar{
+    text-align: left;
+    font-family: 'sanfrancisco', sans-serif;
+    font-size: 1.7em;
+    color: black;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    border-bottom: 1px solid black;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 999999;
+  }
+  
+  .topbar:hover{
+  cursor: default;
+  }
