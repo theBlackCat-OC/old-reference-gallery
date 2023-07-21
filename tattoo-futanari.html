@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="resources/styles/textboxes.css">
   <link rel="stylesheet" type="text/css" href="resources/styles/skeb.css">
   <link rel="stylesheet" type="text/css" href="resources/styles/navigation-menu.css">
-  <title>Tattoos (Vagina Version) - the Black Cat Body Reference Gallery</title>
+  <title>Tattoos (Futanari Version) - the Black Cat Body Reference Gallery</title>
 </head>
   <body>
     <div class="topbar"><a href="https://reference.theblack.cat/">&nbsp;the Black Cat Body Reference Gallery</a></div><br><br>
@@ -74,34 +74,39 @@
     <img src="resources/thank-you-flaticons/drive.png" width="28" height="28" class="inline-icon">
     <span>&nbsp;Google Drive Link</span>
   </a>
-</div><br>
-  <div id="button-outer-box">
-    <div id="button-inner-box">
-      <div class="content-box">
-        <div class="content-item">
-          <div class="img-box">
-            <img class="slide" src="gallery/tattoo-vagina/1.png" alt="Image 1">
-            <img class="slide" src="gallery/tattoo-vagina/2.png" alt="Image 2">
-            <img class="slide" src="gallery/tattoo-vagina/3.png" alt="Image 3">
-            <img class="slide" src="gallery/tattoo-vagina/5.png" alt="Image 5">
-            <img class="slide" src="gallery/tattoo-vagina/6.png" alt="Image 6">
-            <div class="description-box">
-                <p class="description" id="description"></p>
-              </div>            
-          </div>
-          <div class="thumbnail-box">
-            <img class="thumbnail" src="gallery/tattoo-vagina/1.png" onclick="changeSlideTo(0)">
-            <img class="thumbnail" src="gallery/tattoo-vagina/2.png" onclick="changeSlideTo(1)">
-            <img class="thumbnail" src="gallery/tattoo-vagina/3.png" onclick="changeSlideTo(2)">
-            <img class="thumbnail" src="gallery/tattoo-vagina/5.png" onclick="changeSlideTo(3)">
-            <img class="thumbnail" src="gallery/tattoo-vagina/6.png" onclick="changeSlideTo(4)">
 
+</div><br>
+<div id="button-outer-box">
+  <div id="button-inner-box">
+    <div class="content-box">
+      <div class="content-item">
+        <div class="img-box">
+          <img class="slide" src="gallery/tattoo/1.png" alt="Image 1">
+          <img class="slide" src="gallery/tattoo/2.png" alt="Image 2">
+          <img class="slide" src="gallery/tattoo/3.png" alt="Image 3">
+          <img class="slide" src="gallery/tattoo/4.png" alt="Image 4">
+          <img class="slide" src="gallery/tattoo/5.png" alt="Image 5">
+          <img class="slide" src="gallery/tattoo/6.png" alt="Image 6">
+          <img class="slide" src="gallery/tattoo/7.png" alt="Image 7">
+          <div class="description-box">
+            <p class="description" id="description"></p>
           </div>
         </div>
-      </div>    
-    </div>      
-  </div>
-  <br><a href="tattoo"><div class="gallery-navigation-extra"><img src="resources/thank-you-flaticons/penis.png" width="30" height="30" class="inline-icon">&nbsp;Return to the canon futanari body reference</div>
+        <div class="thumbnail-box">
+          <img class="thumbnail" src="gallery/tattoo/1.png" onclick="changeSlideTo(0)">
+          <img class="thumbnail" src="gallery/tattoo/2.png" onclick="changeSlideTo(1)">
+          <img class="thumbnail" src="gallery/tattoo/3.png" onclick="changeSlideTo(2)">
+          <img class="thumbnail" src="gallery/tattoo/4.png" onclick="changeSlideTo(3)">
+          <img class="thumbnail" src="gallery/tattoo/5.png" onclick="changeSlideTo(4)">
+          <img class="thumbnail" src="gallery/tattoo/6.png" onclick="changeSlideTo(5)">
+          <img class="thumbnail" src="gallery/tattoo/7.png" onclick="changeSlideTo(6)">
+        </div>
+      </div>
+    </div>    
+  </div>      
+</div>
+
+  <br><a href="tattoo"><div class="gallery-navigation-extra"><img src="resources/thank-you-flaticons/vagina.png" width="30" height="30" class="inline-icon">&nbsp;Return to the Vagina Version here</div>
     <br><br><br><br><br><div class="bottombar">
       <a href="https://theblack.cat"><span>&copy;&nbsp;黒猫 | the Black Cat, 2023&nbsp;&nbsp;&nbsp;</span></a>
       &nbsp;&nbsp;&nbsp;
@@ -115,51 +120,53 @@
   <script src="resources/scripts/polkadot.js"></script>
   <script src="resources/scripts/totop.js"></script>
   <script src="resources/scripts/scrolldown.js"></script>
-  <script>
-    window.onload = function() {
-    var slideIndex = 0;
-    var slides = document.getElementsByClassName("slide");
-    
-    var descriptions = [
-      "Front View",
-      "Right View",
-      "Back View",
-      "Left View",
-      "Ass. Thigh gap detail"
-    ];
-  
+
+
+<script>
+  window.onload = function() {
+  var slideIndex = 0;
+  var slides = document.getElementsByClassName("slide");
+
+  var descriptions = [
+    "Front View",
+    "Right View",
+    "Left View",
+    "Back View",
+    "Ass. Thigh gap detail",
+    "Back Legs View",
+    "Tight View"
+  ];
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = "0";
+    slides[i].style.visibility = "hidden";
+  }
+  slides[0].style.opacity = "1";
+  slides[0].style.visibility = "visible";
+  updateDescription(0);
+
+  function changeSlideTo(index) {
+    slideIndex = index;
     for (var i = 0; i < slides.length; i++) {
       slides[i].style.opacity = "0";
       slides[i].style.visibility = "hidden";
     }
-  
-    slides[0].style.opacity = "1";
-    slides[0].style.visibility = "visible";
-    updateDescription(0);
-  
-    function changeSlideTo(index) {
-      slideIndex = index;
-      for (var i = 0; i < slides.length; i++) {
-        slides[i].style.opacity = "0";
-        slides[i].style.visibility = "hidden";
-      }
-      slides[slideIndex].style.opacity = "1";
-      slides[slideIndex].style.visibility = "visible";
-      updateDescription(slideIndex);
-    }
-  
-    function updateDescription(index) {
-      var description = document.getElementById("description");
-      description.textContent = descriptions[index];
-    }
-  
-    var thumbnails = document.getElementsByClassName("thumbnail");
-    for (var i = 0; i < thumbnails.length; i++) {
-      thumbnails[i].addEventListener("click", function() {
-        var index = Array.from(thumbnails).indexOf(this);
-        changeSlideTo(index);
-      });
-    }
+    slides[slideIndex].style.opacity = "1";
+    slides[slideIndex].style.visibility = "visible";
+    updateDescription(slideIndex);
   }
-  </script>
+
+  function updateDescription(index) {
+    var description = document.getElementById("description");
+    description.textContent = descriptions[index];
+  }
+
+  var thumbnails = document.getElementsByClassName("thumbnail");
+  for (var i = 0; i < thumbnails.length; i++) {
+    thumbnails[i].addEventListener("click", function() {
+      var index = Array.from(thumbnails).indexOf(this);
+      changeSlideTo(index);
+    });
+  }
+}
+</script>
 </html>
