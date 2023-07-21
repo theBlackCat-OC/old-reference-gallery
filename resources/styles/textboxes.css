@@ -30,10 +30,12 @@
     border: 1px solid black;
     cursor: pointer;
   }
+  
   .gallery-navigation:hover{
     background-color: rgba(255, 255, 255, 0.9);
     transition: 0.5s;
   }
+
   
     .inline-icon{
     vertical-align: -5px;

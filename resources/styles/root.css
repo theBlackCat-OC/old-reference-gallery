@@ -91,6 +91,14 @@ body{
     border: 1px solid black;
   }
 
+  .notification a{
+    color: rgb(24, 124, 255);
+  }
+
+  .notification a:hover{
+    color: rgb(0, 0, 0);
+  }
+
   .arrow {
     display: block;
     font-size: 24px;
