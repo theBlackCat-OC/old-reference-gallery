@@ -1,0 +1,45 @@
+.bubble-trigger-bug {
+    position: absolute;
+    top: -1vh;
+    left: -1vw;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    z-index: 3;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .bubble-bug {
+    position: absolute;
+    top: 1.3vh;
+    left: 1.3vw;
+    display: none;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    z-index: 4;
+    border-radius: 15px;
+    font-family: 'sanfrancisco', 'sans-serif';
+    border: 1px solid black;
+    cursor: default;
+  }
+  
+  .bubble-bug a {
+    color: rgb(24, 124, 255);
+  }
+  
+  .bubble-bug a:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .bubble-trigger-bug:hover + .bubble-bug,
+  .bubble-bug:hover {
+    display: block;
+  }

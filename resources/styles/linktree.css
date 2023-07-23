@@ -1,11 +1,12 @@
 #button-outer-box {
-    width: 62vw;
-    margin: auto;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.1px);
-    -webkit-backdrop-filter: blur(3.1px);
-  }
+  width: 62vw;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border-radius: 16px;
+}
   
   #button-outer-box a {
     display: inline-block;
@@ -24,6 +25,7 @@
     -webkit-backdrop-filter: blur(3.1px);
     border: 1px solid black;
     padding: 15px; 
+    border-radius: 0px 0px 16px 16px;
   }
   
   .button-div {

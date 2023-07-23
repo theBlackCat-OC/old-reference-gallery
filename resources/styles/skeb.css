@@ -5,6 +5,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   position: relative;
   padding-bottom: 100px; 
+  border-radius: 16px;
 }
 
 .content-item {
@@ -16,6 +17,7 @@
   width: 100%;
   height: 0;
   padding-bottom: 75%; 
+  border-radius: 16px;
 }
 
 .slide {
@@ -25,6 +27,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  border-radius: 16px;
 }
 
 .description-box {
@@ -67,6 +70,7 @@
   object-fit: contain;
   background-color: white;
   border: 1px solid black;
+  border-radius: 12px;
 }
 .thumbnail:hover{
   transform: 0.9;
@@ -94,6 +98,7 @@
   cursor: pointer;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 16px;
 }
 
 .gallery-navigation-extra-two:hover {
@@ -131,6 +136,7 @@
   -webkit-backdrop-filter: blur(3.1px);
   border: 1px solid black;
   cursor: pointer;
+  border-radius: 16px;
 }
 
 .gallery-navigation-extra:hover{

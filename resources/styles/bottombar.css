@@ -26,7 +26,11 @@
     padding-bottom: 5px;
   }
   .bottombar-button:hover {
-    background-color: #ffffff;
     transition: 0.5s;
+  }
+
+  #goTopBtn:hover{
+    background-color: white;
+    cursor: pointer;
   }
   

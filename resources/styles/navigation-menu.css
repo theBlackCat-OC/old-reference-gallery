@@ -12,6 +12,8 @@
   margin: 0 auto;
   flex-wrap: wrap; 
   box-sizing: border-box; 
+  border-radius: 16px 16px 0px 0px;
+
 }
 
 .nav-container {
@@ -59,6 +61,8 @@
   flex-shrink: 0; 
   flex-grow: 1; 
   box-sizing: border-box; 
+  font-family: 'productsanslight', sans-serif;
+  font-size: 1.3em;
 }
 
 .current-content{
@@ -69,6 +73,7 @@
   text-decoration:none;
   color: black;
   cursor: default;
+  background-color: rgb(177, 177, 177);
 }
 
 
