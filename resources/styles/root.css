@@ -51,7 +51,7 @@ body{
     top: 1%;
     right: 1%;
     transform: translateY(-50%);
-    z-index: 99999999;
+    z-index: 9;
   }
   
   .butwhy-button {
