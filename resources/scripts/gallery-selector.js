@@ -12,7 +12,7 @@ const tags = [
 ];
 const galleries = [
   {
-    name: 'AttireOne',
+    name: 'Attire One',
     images: [
       { src: 'gallery/attires/glamourplates/attire-one/0.gif', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/1.png', tags: 'GlamourPlate' },
@@ -49,6 +49,17 @@ const galleries = [
       { src: 'gallery/attires/accessories/miniskirt/11.png', tags: 'Legwear' },
       { src: 'gallery/attires/accessories/miniskirt/12.png', tags: 'Legwear' },
       { src: 'gallery/attires/accessories/miniskirt/13.png', tags: 'Legwear' },
+    ],
+  },
+
+  {
+    name: 'Wing Earring',
+    images: [
+      { src: 'gallery/jewelry/1.png', tags: 'Jewelry' },
+      { src: 'gallery/jewelry/2.png', tags: 'Jewelry' },
+      { src: 'gallery/jewelry/3.png', tags: 'Jewelry' },
+      { src: 'gallery/jewelry/4.png', tags: 'Jewelry' },
+
     ],
   },
 ];
