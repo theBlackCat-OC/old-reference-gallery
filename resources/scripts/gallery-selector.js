@@ -1,5 +1,7 @@
 const tagContainer = document.getElementById('tagContainer');
 const galleriesContainer = document.getElementById('galleries');
+const urlParams = new URLSearchParams(window.location.search);
+const selectedGallery = urlParams.get('gallery');
 
 const tags = [
   { name: 'GlamourPlate', backgroundColor: '#2ac955' },
@@ -13,6 +15,7 @@ const tags = [
 const galleries = [
   {
     name: 'Attire One',
+    url_id: 'attire-one',
     images: [
       { src: 'gallery/attires/glamourplates/attire-one/0.gif', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/1.png', tags: 'GlamourPlate' },
@@ -35,6 +38,7 @@ const galleries = [
   
   {
     name: 'Miniskirt',
+    url_id: 'miniskirt',
     images: [
       { src: 'gallery/attires/accessories/miniskirt/1.png', tags: 'Legwear' },
       { src: 'gallery/attires/accessories/miniskirt/2.png', tags: 'Legwear' },
@@ -98,8 +102,14 @@ function createGallery(gallery) {
   galleryElement.appendChild(largeImageContainer);
   galleryElement.appendChild(thumbnailsContainer);
 
+  // Check if the current gallery's url_id matches the selectedGallery from the URL
+  if (gallery.url_id === selectedGallery) {
+    galleryElement.classList.add('selected-gallery');
+  }
+
   return galleryElement;
 }
+
 
 function addTagToContainer(tag) {
   const tagElement = document.createElement('div');
@@ -179,8 +189,13 @@ function showGalleryByName(galleryName) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const galleryToShow = getURLParameter('gallery');
-  if (galleryToShow) {
-    showGalleryByName(galleryToShow);
+  const allGalleries = galleriesContainer.getElementsByClassName('gallery');
+
+  for (const gallery of allGalleries) {
+    if (gallery.classList.contains('selected-gallery')) {
+      gallery.style.display = 'block';
+    } else {
+      gallery.style.display = 'none';
+    }
   }
 });

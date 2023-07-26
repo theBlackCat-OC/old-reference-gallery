@@ -146,6 +146,7 @@
     top: 9vh;
     left: 5.6vw;
     display: none;
+    font-size: 0.9em;
     padding: 10px;
     background: rgba(255, 255, 255, 0.6);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
