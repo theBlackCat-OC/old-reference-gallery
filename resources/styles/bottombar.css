@@ -34,3 +34,14 @@
     cursor: pointer;
   }
   
+  .giticon {
+    transition: transform 0.5s;
+  }
+  
+  .giticon:hover {
+    transform: scale(1.2);
+  }
+  
+  .giticon:not(:hover) {
+    transform: scale(1);
+  }

@@ -90,6 +90,17 @@ const galleries = [
   },
 
   {
+    name: 'Handwraps',
+    url_id: 'handwraps',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1TlXUiVlmBmdRwt3ypOFtJZ_NPuCd3Awh?usp=sharing" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    images: [
+      { src: 'gallery/attires/accessories/handwraps/1.png', tags: 'Handwear' },
+      { src: 'gallery/attires/accessories/handwraps/2.png', tags: 'Handwear' },
+
+    ],
+  },
+
+  {
     name: 'Wing Earring',
     url_id: 'wing-earring',
     download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1TlXUiVlmBmdRwt3ypOFtJZ_NPuCd3Awh?usp=sharing" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
