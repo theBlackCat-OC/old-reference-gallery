@@ -1,0 +1,72 @@
+.gallery img {
+  cursor: pointer;
+  object-fit: cover; /* Change 'cover' to 'contain' to prevent cropping */
+  object-position: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Gallery styles */
+.gallery {
+  margin: 20px auto; /* Center the gallery horizontally */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid black;
+  padding: 10px;
+  max-width: 100%;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  border-radius: 16px;
+}
+
+#galleries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the galleries horizontally */
+}
+
+.gallery {
+  width: 100%; /* Occupies full width initially */
+}
+
+/* When two or more galleries are visible, they occupy 48% of the width each */
+@media screen and (min-width: 768px) {
+  .gallery {
+    width: 48%;
+  }
+}
+
+.large-image-container img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.thumbnails-container {
+  display: flex;
+  justify-content: flex-start; /* Align thumbnails to the left */
+  align-items: center;
+  overflow-x: auto; /* Add horizontal scroll when necessary */
+  min-width: 100%; /* Ensure thumbnails don't clip, and the scroll will appear if necessary */
+}
+
+.thumbnails-container img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.thumbnails-container img:hover {
+  border-color: #2ac955; /* Change the border color on hover */
+}
+
+.gallery-title {
+  font-family: 'sanfrancisco';
+  font-size: 18px;
+  margin-bottom: 10px;
+}

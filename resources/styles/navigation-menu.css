@@ -67,13 +67,18 @@
 
 .current-content{
   background-color: white;
+  cursor: default;
 }
 
 .current-content:hover{
-  text-decoration:none;
+  background-color: white;
   color: black;
   cursor: default;
-  background-color: rgb(177, 177, 177);
+}
+.current-content a:visited{
+  background-color: white;
+  color: black;
+  cursor: default;
 }
 
 
