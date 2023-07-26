@@ -261,17 +261,20 @@ function updateGalleries() {
 
 function addGalleryToContainer(gallery) {
   const galleryElement = createGallery(gallery);
-  galleriesContainer.appendChild(galleryElement);
 
-  galleryElement.addEventListener('click', (event) => {
-    const clickedElement = event.target;
-    const largeImage = galleryElement.querySelector('.large-image-container img');
-
-    if (clickedElement === galleryElement || clickedElement === largeImage) {
-      // Clicked outside the zoomed image or its thumbnails, do nothing
-    }
-  });
+  // Check if any galleries are currently displayed in the container
+  if (galleriesContainer.firstChild) {
+    // Get the first gallery element currently in the container
+    const firstGallery = galleriesContainer.firstChild;
+    
+    // Insert the new gallery element before the first gallery
+    galleriesContainer.insertBefore(galleryElement, firstGallery);
+  } else {
+    // If no galleries are displayed, simply append the new gallery to the container
+    galleriesContainer.appendChild(galleryElement);
+  }
 }
+
 
 tags.forEach(tag => addTagToContainer(tag));
 galleries.forEach(gallery => addGalleryToContainer(gallery));
