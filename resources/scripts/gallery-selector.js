@@ -16,6 +16,7 @@ const galleries = [
   {
     name: 'Attire One',
     url_id: 'attire-one',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1EughyXwEkcQj6OpSDBYfuPIkowJlv_Zf?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',
     images: [
       { src: 'gallery/attires/glamourplates/attire-one/0.gif', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/1.png', tags: 'GlamourPlate' },
@@ -35,10 +36,42 @@ const galleries = [
       { src: 'gallery/attires/glamourplates/attire-one/15.png', tags: 'GlamourPlate' },
     ],
   },
+
+  {
+    name: 'Attire Two',
+    url_id: 'attire-two',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1TlXUiVlmBmdRwt3ypOFtJZ_NPuCd3Awh?usp=sharing" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    images: [
+      { src: 'gallery/attires/glamourplates/attire-two/1.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-two/2.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-two/3.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-two/4.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-two/5.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-two/6.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-two/7.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-two/8.png', tags: 'GlamourPlate' },
+
+    ],
+  },
+
+  {
+    name: 'Attire Three',
+    url_id: 'attire-three',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/19JVWBzmuPQfyh74R8H_alH2i02eisdvp?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    images: [
+      { src: 'gallery/attires/glamourplates/attire-three/1.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-three/2.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-three/3.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-three/4.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-three/5.png', tags: 'GlamourPlate' },
+    ],
+  },
+
   
   {
     name: 'Miniskirt',
     url_id: 'miniskirt',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1t_Kd3CbZvpK-bivvgna-G9AhxI258eAc?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
     images: [
       { src: 'gallery/attires/accessories/miniskirt/1.png', tags: 'Legwear' },
       { src: 'gallery/attires/accessories/miniskirt/2.png', tags: 'Legwear' },
@@ -59,6 +92,7 @@ const galleries = [
   {
     name: 'Wing Earring',
     url_id: 'wing-earring',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1TlXUiVlmBmdRwt3ypOFtJZ_NPuCd3Awh?usp=sharing" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
     images: [
       { src: 'gallery/jewelry/1.png', tags: 'Jewelry' },
       { src: 'gallery/jewelry/2.png', tags: 'Jewelry' },
@@ -67,20 +101,86 @@ const galleries = [
 
     ],
   },
-];
 
+  {
+    name: 'Gilded Claws',
+    url_id: 'gilded-claws',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1OQTOMoxJked2Kfo1hWsFdT86txuKImnd?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    images: [
+      { src: 'gallery/attires/accessories/gilded-claws/2.png', tags: 'Jewelry' },
+      { src: 'gallery/attires/accessories/gilded-claws/3.png', tags: 'Jewelry' },
+      { src: 'gallery/attires/accessories/gilded-claws/4.png', tags: 'Jewelry' },
+
+    ],
+  },
+
+  {
+    name: 'Golden Nails',
+    url_id: 'golden-nails',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1pAOy5toBXO4Ph9C_LqQ81OHcqyB8RFZ0?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    images: [
+      { src: 'gallery/attires/accessories/golden-nails/1.png', tags: 'Jewelry' },
+      { src: 'gallery/attires/accessories/golden-nails/2.png', tags: 'Jewelry' },
+
+
+    ],
+  },
+
+  {
+    name: 'Marble Bracelet',
+    url_id: 'marble-bracelet',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1pAOy5toBXO4Ph9C_LqQ81OHcqyB8RFZ0?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    images: [
+      { src: 'gallery/attires/accessories/marble-bracelet/1.png', tags: 'Jewelry' },
+
+    ],
+  },
+
+  {
+    name: 'Spilling Breasts while Laying Down',
+    url_id: 'spilling-breasts',
+    download_icon: '&nbsp',  
+    images: [
+      { src: 'gallery/hidden/reference-poses/spilling-breasts/1.jpg'},
+      { src: 'gallery/hidden/reference-poses/spilling-breasts/2.jpg'},
+    ],
+  },
+
+  {
+    name: 'Anus Offering',
+    url_id: 'anus-offering',
+    download_icon: '&nbsp',  
+    images: [
+      { src: 'gallery/hidden/reference-poses/anus-offering/1.png'},
+    ],
+  },
+
+];
 
 function createGallery(gallery) {
   const galleryElement = document.createElement('div');
   galleryElement.classList.add('gallery');
   galleryElement.dataset.tags = gallery.images.reduce((tags, image) => `${tags} ${image.tags}`, '');
 
-  // Create a title element for the gallery
+  // Create the gallery title element
   const titleElement = document.createElement('div');
   titleElement.classList.add('gallery-title');
-  titleElement.innerText = gallery.name;
+
+  // Create the download icon element and add the download_icon HTML
+  const downloadIconElement = document.createElement('div');
+  downloadIconElement.classList.add('download-icon');
+  downloadIconElement.innerHTML = gallery.download_icon;
+
+  // Add the download icon and gallery name to the title element
+  titleElement.appendChild(downloadIconElement);
+  const nameElement = document.createElement('span'); // Use a <span> instead of <div> for the name
+  nameElement.innerHTML = gallery.name;
+  titleElement.appendChild(nameElement);
+
+  // Append the title element to the gallery element
   galleryElement.appendChild(titleElement);
 
+  // ... Rest of the function remains the same ...
   const largeImageContainer = document.createElement('div');
   largeImageContainer.classList.add('large-image-container');
   const largeImage = document.createElement('img');

@@ -40,6 +40,14 @@
     justify-content: center; 
 }
 
+.gallery-title {
+    display: flex; /* Make the gallery title a flex container */
+    align-items: center; /* Align items vertically at the center */
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+
 
 .image-card {
     border: 1px solid #ddd;
@@ -62,6 +70,7 @@
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 8px;
+    
 }
 
 .image-info {
@@ -110,6 +119,9 @@
     border: 2px solid white;
 }
 
+.selector-drive{
+    vertical-align: -5px;
+}
 
 .description-tag {
     cursor: default;
@@ -118,6 +130,9 @@
     font-size: 1em;
 }
 
+.download-icon{
+    left:5px;
+}
 
 
 .tag.tag-all.tag-selected {
