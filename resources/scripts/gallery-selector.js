@@ -58,6 +58,7 @@ const galleries = [
 
   {
     name: 'Wing Earring',
+    url_id: 'wing-earring',
     images: [
       { src: 'gallery/jewelry/1.png', tags: 'Jewelry' },
       { src: 'gallery/jewelry/2.png', tags: 'Jewelry' },
