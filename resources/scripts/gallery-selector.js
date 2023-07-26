@@ -167,7 +167,7 @@ const galleries = [
   },
 
   {
-    name: 'Tattoo Textures',
+    name: 'Tattoo nº1 Textures',
     url_id: 'tattoo-texture',
     download_icon: '&nbsp',  
     images: [
