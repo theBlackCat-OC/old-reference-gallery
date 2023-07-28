@@ -18,12 +18,11 @@ const galleries = [
     url_id: 'attire-one',
     download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1EughyXwEkcQj6OpSDBYfuPIkowJlv_Zf?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',
     images: [
-      { src: 'gallery/attires/glamourplates/attire-one/0.gif', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-one/5.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/1.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/2.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/3.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/4.png', tags: 'GlamourPlate' },
-      { src: 'gallery/attires/glamourplates/attire-one/5.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/6.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-one/7.png', tags: 'GlamourPlate' },
     ],
@@ -34,16 +33,14 @@ const galleries = [
     url_id: 'attire-two',
     download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1TlXUiVlmBmdRwt3ypOFtJZ_NPuCd3Awh?usp=sharing" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
     images: [
-      { src: 'gallery/attires/glamourplates/attire-two/0.gif', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-two/7.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-two/1.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-two/2.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-two/3.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-two/4.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-two/5.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-two/6.png', tags: 'GlamourPlate' },
-      { src: 'gallery/attires/glamourplates/attire-two/7.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-two/8.png', tags: 'GlamourPlate' },
-
     ],
   },
 
@@ -52,7 +49,6 @@ const galleries = [
     url_id: 'attire-three',
     download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/19JVWBzmuPQfyh74R8H_alH2i02eisdvp?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
     images: [
-      { src: 'gallery/attires/glamourplates/attire-three/0.gif', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-three/1.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-three/2.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-three/3.png', tags: 'GlamourPlate' },
@@ -67,17 +63,33 @@ const galleries = [
     url_id: 'attire-four',
     download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1xwCdjI3RSIsvAxU8q7uBFIpFaVr4BiX6?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
     images: [
-      { src: 'gallery/attires/glamourplates/attire-four/0.gif', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-four/5.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-four/1.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-four/2.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-four/3.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-four/4.png', tags: 'GlamourPlate' },
-      { src: 'gallery/attires/glamourplates/attire-four/5.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-four/6.png', tags: 'GlamourPlate' },
       { src: 'gallery/attires/glamourplates/attire-four/7.png', tags: 'GlamourPlate' },
     ],
   },
   
+  {
+    name: 'Attire Five',
+    url_id: 'attire-five',
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1xwCdjI3RSIsvAxU8q7uBFIpFaVr4BiX6?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    images: [
+      { src: 'gallery/attires/glamourplates/attire-five/1.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-five/2.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-five/3.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-five/4.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-five/5.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-five/6.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-five/7.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-five/8.png', tags: 'GlamourPlate' },
+      { src: 'gallery/attires/glamourplates/attire-five/9.png', tags: 'GlamourPlate' },
+    ],
+  },
+
   {
     name: 'Miniskirt',
     url_id: 'miniskirt',
@@ -113,7 +125,6 @@ const galleries = [
   {
     name: 'Dancer Socks',
     url_id: 'dancer-socks',
-    complete_attire: 'attirefour',
     download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1nwOkBs3IwD1krj7MbEIp5YPN7OkX8XTV?usp=drive_link" target="_blank"><img src="resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
     images: [
       { src: 'gallery/attires/accessories/dancer-socks/1.png', tags: 'Footwear' },
